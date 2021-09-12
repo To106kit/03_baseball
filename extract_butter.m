@@ -33,9 +33,9 @@ t_label_list = {'選手名', ...
     'SecA',  ...
     'TA',  ...
     };
-t_butterTbl_sta = '<tr>'; % 打者成績表開始タグ
+t_butterTbl_sta = '<tr'; % 打者成績表開始タグ
 t_butterTbl_end = '</tr>';   % 打者成績終了タグ
-t_player_sta = '<td';
+t_player_sta = '<td>';
 t_player_end = '</td>';
 t_name_sta = "<a href=" + wildcardPattern + ">";
 t_name_end = '</a>';
