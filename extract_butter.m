@@ -75,6 +75,9 @@ for t_player_idx = 1:size(t_butter_list,1)
     end
 end
 
+% 凡例を結合
+t_butterSaber_list = vertcat(t_label_list,t_butter_table);
+
 r_ret = 0;
 return
 end
